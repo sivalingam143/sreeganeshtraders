@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       )}
       <div className='fixed point'>
-        <WhatsAppButton name="Hi Sivakasi Crackers" phoneNumber="919597145823" />
+        <WhatsAppButton name="Hi S" phoneNumber="shree ganesh traders 9944708084" />
       </div>
       <a href="https://maps.app.goo.gl/M9bD62NWEtL2kUfdA">
         <div className="fixed point3" style={{ cursor: 'pointer' }}>
@@ -59,7 +59,7 @@ const Footer = () => {
                 <Row className='justify-content-center'>
                   <Col lg='3' className="py-3">
                     <div className='ft-logo'>
-                      <img src={require('../../assets/images/storelogo.png')} className='img-fluid logo-circle' alt='Selva Crackers' />
+                      <img src={require('../../assets/images/storelogo.png')} className='img-fluid border-0 ' alt='Selva Crackers' />
                     </div>
                     <div className='regular'>Light up your Diwali celebrations with our spectacular range of crackers! Enjoy unbeatable discounts and make this festival of lights truly memorable</div>
                   </Col>
@@ -69,21 +69,21 @@ const Footer = () => {
                       <li className='mx-3 pb-3 smallfnt'>
                         <p><CiLocationArrow1 /></p>
                         <div className='text_one'>
-                        Alagar Crackers, Sankarankovil Rd, Muthugudi,                       
-                        Rajapalayam, Tamil Nadu 626117</div>
+                          Shree Ganesh Traders,
+                        Kovilpatti to Sattur Main Road, 626203</div>
                       </li>
                       <li className='mx-3 pb-3 smallfnt'>
                         <p> <FaSquarePhone /></p>
-                        <div className='text_one'>+91 9597145823</div>
+                        <div className='text_one'>+91 9944708084</div>
                       </li>
                       <li className='mx-3 pb-3 smallfnt'>
                         <p><FaWhatsapp /></p>
-                        <div className='text_one'>+91 9597145823</div>
+                        <div className='text_one'>+91 9944708084</div>
                       </li>
                       
                       <li className='mx-3 pb-3 smallfnt'>
                         <p><FaRegEnvelope /></p>
-                        <div className='text_one'>alagarcrackers@gmail.com</div>
+                        <div className='text_one'>shreeganeshtraders@gmail.com</div>
                       </li>
                     </ul>
 
@@ -119,7 +119,7 @@ const Footer = () => {
           <Container>
             <Row>
               <Col lg='12' className='py-3'>
-                <div className='text-center regular text-white'> Copyright © 2024,. Sivakasi Crackers. All rights reserved </div>
+                <div className='text-center regular text-white'> Copyright © 2024,. Shree Ganesh Traders. All rights reserved </div>
               </Col>
             </Row>
           </Container>

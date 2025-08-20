@@ -229,15 +229,14 @@ color: #ffffff;}
   height: 220px;
   border-radius: 50px;
 }
-.ft-logo img {
-  background-color: #ffffff;
-  border-radius: 50%;
+/* .ft-logo img {
+  
   padding: 3px;
   /* border: 2px solid #ccc; */
-  width: 125px;
+  /* width: 125px;
   height: 126px;
-  object-fit: contain;
-}
+  object-fit: contain; */
+/* } */
 
 .text_one {
   font-size: 14px;

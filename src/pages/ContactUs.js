@@ -10,11 +10,11 @@ const ContactUs = () => {
   return (
     <div>
        <MetaTags
-        title="Contact Us - Sivakasi Crackers - Whole sale Crackers"
+        title="Contact Us - Shree Ganesh Traders - Whole sale Crackers"
         type="website"
         siteName="diwalicracker.com"
         url="https://diwalicracker.com/contactus"
-        keywords="Contact Us | Sivakasi Crackers Crackers "
+        keywords="Contact Us | Shree Ganesh Traders "
         description="Contact for wholesale Crackers and Retail Crackers"
         revisitAfter="10 Days"
       />
@@ -31,8 +31,7 @@ const ContactUs = () => {
                           <PiMapPinSimpleAreaBold size={40} color={'#000'} />
                         </div>
                         <div className='regular'>
-                        Alagar Crackers, Sankarankovil Rd, Muthugudi,   <br/>
-                      Rajapalayam, Tamil Nadu 626117
+                        Kovilpatti to Sattur Main Road, 626203.  <br></br>
                         </div>
                     </div>
                   </Col>
@@ -42,7 +41,7 @@ const ContactUs = () => {
                         <BiPhoneCall size={40} color={'#000'}/>
                         </div>
                         <div>
-                        <li>+91 9597145823</li>
+                        <li>+91 9944708084</li>
                        
                         </div>
                     </div>
@@ -53,7 +52,7 @@ const ContactUs = () => {
                           <MdOutlineAlternateEmail size={40} color={'#000'}/>
                         </div>
                         <div className='pb-4'>
-                          <div>alagarcrackers@gmail.com</div> 
+                          <div>shreeganeshcrackers@gmail.com</div> 
                         </div>
                     </div>
                   </Col>
@@ -68,7 +67,7 @@ const ContactUs = () => {
                     height="600"
                     style={{ border: 0 }}
                     allowFullScreen
-                    title="Google Maps Embed of Sivakasi Crackers, Tamil Nadu"
+                    title="Google Maps Embed of Shree Ganesh Crackers, Tamil Nadu"
                   />
                 </>
               </Col>

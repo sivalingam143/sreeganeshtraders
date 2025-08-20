@@ -5,12 +5,14 @@ import { AppBar} from './components/AppBar'
 import Footer from './components/Footer'
 import { Container,Row,Col } from 'react-bootstrap'
 import CountUp from 'react-countup';
+import { Link }from 'react-router-dom';
 import { ButtonView } from '../components/Buttons/Buttons';
 import { useNavigate } from 'react-router-dom';
 import { MagicStar,HeartTick,Quant,Tag2} from 'iconsax-react';
 // import Banner from './components/Banner';
 import Carousal from './components/Carousal'
 import { HomeProductsOne, HomeProductsTwo, HomeProductThree } from './HomeProducts';
+import './home.css';
 // import Countdown from './components/DayCount';
 const Home = () => {
     useEffect(() => {
@@ -41,10 +43,11 @@ const Home = () => {
                 <Row>
                     <Col lg={6} xs='12'>
                         <div className='home-top'>
-                            <h2 className='bold color-red'> Welcome to Sivakasi Crackers</h2>
+                            <h2 className='bold color-red'> Welcome to </h2>
                             <div className='regular'>
                                 <p>
-                                    <span class="color-red bold">Sivakasi Crackers</span> is the leading supplier of Crackers , Sparklers & Fancy items and our aim is to provide the excellent services and true value for money. Any Special Functions can't be completed without Crackers sounds and colors. We provide that through our Dazzling Crackers. We are from the Cracker city Sivakasi. Our efficiency in business has set benchmarks among our competitors in the line of quality.
+                                    <span class="color-red bold">Shree Ganesh Traders</span> is the leading supplier of Crackers , Sparklers & Fancy items and our aim is to provide the excellent services and true value for money. Any Special Functions can't be completed without Crackers sounds and colors. We provide that through our Dazzling Crackers. We are from the Cracker city Sivakasi. 
+                                    Our efficiency in business has set benchmarks among our competitors in the line of quality.
                                 </p>
                                 <p>
                                 We are one of the leading Wholesale & Retail crackers shop in sivakasi. We are offering the High Quality products with low price. Our main moto is to supply quality products to our valuable Customers. Make your colorful occasion with our quality Crackers.
@@ -85,7 +88,7 @@ const Home = () => {
                 <Row>
                     <Col xs={12} className='py-3 align-self-center'>
                     <div data-aos="fade-up" className='text-center'>
-                        <h1 class=" bold text-center pb-1 lg-font h1color"> Welcome to Sivakasi Crackers</h1>  
+                        <h1 class=" bold text-center pb-1 lg-font h1color"> Welcome to Shree Ganesh Traders</h1>  
                             <h2 class=" bold pt-5 subheadcolor">Diwali Best Crackers In sivakasi</h2>
                             <p class="regular">
                                 We have immense pleasure in welcoming you to visit our mega fireworks showroom located in Sivakasi, where you can directly place your valuable orders and fulfill all your crackers requirements at one stop. We are in the cracker's industry for past 10+ years. It's our pride in supplying our esteemed customers with the best quality crackers at the lowest market prices.</p>
@@ -95,7 +98,7 @@ const Home = () => {
                 </Row>
             </Container>
         </div>
-        <img src={require('../assets/images/banner/banner_et.jpg')} className='img-fluid w-100' alt='Sivakasi Crackers' />
+        <img src={require('../assets/images/banner/banner_et.jpg')} className='img-fluid w-100' alt='Shree Ganesh Traders' />
        {/* <intro end */}
 
             {/* product start */}
@@ -106,9 +109,10 @@ const Home = () => {
                     <Row className='justify-content-center'>
                         <Col lg='6'>
                             <h1 class=" bold text-center pb-5 lg-font h1color">Why Choose
-                            Sivakasi Crackers</h1>
+                            Shree Ganesh Traders</h1>
                             <p className='regular text-center'>
-                            Sivakasi Crackers Shop is a top provider of premium crackers and fireworks located in Sivakasi, Tamil Nadu. We offer authentic Sivakasi crackers at highly competitive prices, ensuring you get the best quality for your celebrations.</p>
+                            Shree Ganesh Traders Shop is a top provider of premium crackers and fireworks located in Sivakasi, Tamil Nadu. 
+                            We offer authentic Shree Ganesh Traders at highly competitive prices, ensuring you get the best quality for your celebrations.</p>
                         </Col>
                     </Row>
                     <Row>
@@ -259,7 +263,7 @@ const Home = () => {
                 </Container>
             </div>
        {/* paralax end */}
-       <img src={require('../assets/images/banner/baanner7.jpg')} className='img-fluid w-100' alt='Sivakasi crackers' data-aos="flip-right" />
+       <img src={require('../assets/images/banner/baanner7.jpg')} className='img-fluid w-100' alt='Shree Ganesh traders' data-aos="flip-right" />
        {/* product banner start */}
             <div className='padding'>
                 <Container>
@@ -296,7 +300,7 @@ const Home = () => {
                         <Col lg="7" md="12" xs='12' className='py-3'>
                             <div class="" data-aos="fade-right">
                                 <h1 class="bold">
-                                Sivakasi Crackers
+                                Shree Ganesh Traders
                                 </h1> 
                                 <div className='regular'>
                                     <p>We are the leading crackers wholesale manufacturers in Sivakasi, We deliver crackers directly from Sivakasi at affordable price.</p>
@@ -317,7 +321,185 @@ const Home = () => {
         </div>
         {/* sale bg end*/}
         <Footer/>
-        </div>
+        {/* about content start */}
+
+        <Container className="container pad products">
+		<Row className="row">
+<Col
+  md="6"
+  className="align-self-center pt-3 ord1"
+  data-aos="zoom-in"
+  data-aos-duration="1500"
+  data-aos-delay="200"
+>
+  <img
+    src={require('../assets/images/wel-side.webp')}
+    className="img-fluid sty-radius shadow1"
+    alt="shree ganesh traders shop"
+    title="shree ganesh traders shop"
+  />
+</Col>
+
+<Col
+  md="6"
+  className="text-center align-self-center pt-3 ord2"
+  data-aos="fade-right"
+  data-aos-duration="1500"
+  data-aos-delay="200"
+>
+  <p className="top-title text-danger"><span>Welcome To</span></p>
+  <div className="heading1 arial clr1">Sri Ganesh Traders</div>
+  <div className="heading6 pb-3">
+    WE HAVE THE GLORY BEGINING IN FIREWORKS BUSINESS
+  </div>
+  <p className="helvetica">
+    Senthan Guru Crackers has been a well-known Fireworks Store in Sivakasi.
+    What started out as a hobby, has become our passion and we're delighted to share it with you.
+    We’re committed to offering quality products, unparalleled service and the most competitive
+    prices in town. Great service begins with great people and industry experience, which is why
+    our staff is made up of the best and most qualified in the business.
+  </p>
+</Col>
+
+		</Row>
+	</Container>
+    {/* about content end */}
+    {/* Our products start */}
+        <div className="whychoosebg">
+	<Container className="container">
+		<Row className="row">
+            <div className="para_size">
+                <Col lg='12' className=" text-center pb-lg-4 wow fadeInDown" 
+                style={{visibility: 'visible', animationName: 'fadeInDown'}}>
+                    <h1 className="arial headfnt text-white font-weight-bold">Our Products</h1>
+					<img src={require("../assets/images/nod.webp") }
+                    className="img-fluid mb-3 w-10" 
+                    alt="sivakasi wholesale crackers shop" 
+                    title="sivakasi wholesale crackers shop"/>
+                    <p className="helvetica text-white pt-4">We aim to make our customers satisfied and happy with all of our innovative crackers.
+                        We introduce new crackers and packages every year for our beloved customers. </p>
+                </Col>
+            </div>
+		</Row>
+	</Container>
+</div>
+{/* Our products end */}
+{/* products start */}
+<Container className="container productsline ">
+	<Row className="row row-hang">
+		<Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product6.webp")}
+                                className="img-fluid rd" alt="online crackers shopping" title="online crackers shopping"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial"> Ground Chakkars </div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className=" pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product3.webp")} 
+                                className="img-fluid rd" alt="diwali crackers sale" 
+                                title="diwali crackers sale"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial"> Flower Pots </div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className=" pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product5.webp")} 
+                                className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Sparklers</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className=" pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product4.webp")}  
+                                className="img-fluid rd" alt="shree ganesh traders shop" title="shree ganesh traders shop"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Skyshots</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product1.webp")}  
+                                className="img-fluid rd" alt="online crackers shopping" title="online crackers shopping"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Rockets</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product2.webp")}  
+                                className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Single Sounds</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+	</Row>
+</Container>
+{/* products end */}
+    </div>
     </>
   )
 }

@@ -7,7 +7,7 @@ const Mark = () => {;
           <Container>
             <Row>
               <Col lg='12' className='py-3'>
-                <div className='text-center regular text-white'> Copyright © 2024,.   Sivakasi Crackers. All rights reserved </div>
+                <div className='text-center regular text-white'> Copyright © 2024,.   Shree Ganesh Traders. All rights reserved </div>
               </Col>
             </Row>
           </Container>
