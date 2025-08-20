@@ -39,11 +39,189 @@ const Home = () => {
         alt="product name"
       />
         <div className='padding'>
-            <Container>
+                    {/* about content start */}
+
+        <Container className="container pad products">
+		<Row className="row">
+<Col
+  md="6"
+  className="align-self-center pt-3 ord1"
+  data-aos="zoom-in"
+  data-aos-duration="1500"
+  data-aos-delay="200"
+>
+  <img
+    src={require('../assets/images/wel-side.webp')}
+    className="img-fluid sty-radius shadow1"
+    alt="shree ganesh traders shop"
+    title="shree ganesh traders shop"
+  />
+</Col>
+
+<Col
+  md="6"
+  className="text-center align-self-center pt-3 ord2"
+  data-aos="fade-right"
+  data-aos-duration="1500"
+  data-aos-delay="200"
+>
+  <p className="top-title text-danger"><span>Welcome To</span></p>
+  <div className="heading1 arial clr1">Sri Ganesh Traders</div>
+  <div className="heading6 pb-3">
+    WE HAVE THE GLORY BEGINING IN FIREWORKS BUSINESS
+  </div>
+  <p className="helvetica">
+    Shree Ganesh Traders has been a well-known Fireworks Store in Sivakasi.
+    What started out as a hobby, has become our passion and we're delighted to share it with you.
+    We’re committed to offering quality products, unparalleled service and the most competitive
+    prices in town. Great service begins with great people and industry experience, which is why
+    our staff is made up of the best and most qualified in the business.
+  </p>
+</Col>
+
+		</Row>
+	</Container>
+    {/* about content end */}
+       {/* Our products start */}
+        <div className="whychoosebg">
+	<Container className="container">
+		<Row className="row">
+            <div className="para_size">
+                <Col lg='12' className=" text-center pb-lg-4 wow fadeInDown" 
+                style={{visibility: 'visible', animationName: 'fadeInDown'}}>
+                    <h1 className="arial headfnt text-white font-weight-bold">Our Products</h1>
+					<img src={require("../assets/images/nod.webp") }
+                    className="img-fluid mb-3 w-10" 
+                    alt="sivakasi wholesale crackers shop" 
+                    title="sivakasi wholesale crackers shop"/>
+                    <p className="helvetica text-white pt-4">We aim to make our customers satisfied and happy with all of our innovative crackers.
+                        We introduce new crackers and packages every year for our beloved customers. </p>
+                </Col>
+            </div>
+		</Row>
+	</Container>
+</div>
+{/* Our products end */}
+{/* products start */}
+<Container className="container productsline ">
+	<Row className="row row-hang">
+		<Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product6.webp")}
+                                className="img-fluid rd" alt="online crackers shopping" title="online crackers shopping"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial"> Ground Chakkars </div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className=" pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product3.webp")} 
+                                className="img-fluid rd" alt="diwali crackers sale" 
+                                title="diwali crackers sale"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial"> Flower Pots </div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className=" pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product5.webp")} 
+                                className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Sparklers</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className=" pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product4.webp")}  
+                                className="img-fluid rd" alt="shree ganesh traders shop" title="shree ganesh traders shop"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Skyshots</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product1.webp")}  
+                                className="img-fluid rd" alt="online crackers shopping" title="online crackers shopping"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Rockets</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+		<Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product2.webp")}  
+                                className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Single Sounds</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+	</Row>
+</Container>
+{/* products end */}
+            {/* <Container>
                 <Row>
                     <Col lg={6} xs='12'>
                         <div className='home-top'>
-                            <h2 className='bold color-red'> Welcome to </h2>
+                            <h2 className='bold color-red'> Welcome to shree ganesh  </h2>
                             <div className='regular'>
                                 <p>
                                     <span class="color-red bold">Shree Ganesh Traders</span> is the leading supplier of Crackers , Sparklers & Fancy items and our aim is to provide the excellent services and true value for money. Any Special Functions can't be completed without Crackers sounds and colors. We provide that through our Dazzling Crackers. We are from the Cracker city Sivakasi. 
@@ -59,7 +237,7 @@ const Home = () => {
                          
                             <div>
                                 {/* <Buttons label={<>Shop Now . . . !</>} onClick={handlenavigate} data-aos="fade-up"/> */}
-                                <ButtonView label={<>Shop Now</>} className="shop-now" onClick={handlenavigate}/>
+                                {/* <ButtonView label={<>Shop Now</>} className="shop-now" onClick={handlenavigate}/>
                             </div>
                         </div>
                     </Col>
@@ -67,11 +245,11 @@ const Home = () => {
                         <img src={require('../assets/images/intro.jpg')} className='img-fluid' alt='best discount in diwali sale'  />
                     </Col>
                 </Row>
-            </Container>
+            </Container> */}
         </div>
-            <>
+            {/* <>
             <HomeProductsOne/>
-            </>
+            </> */}
         <div className='blast-one'>
             <img src={require('../assets/images/blast_one.gif')} className='img-fluid' alt='Blast Crackers'  />
           
@@ -322,183 +500,6 @@ const Home = () => {
         {/* sale bg end*/}
         <Footer/>
         {/* about content start */}
-
-        <Container className="container pad products">
-		<Row className="row">
-<Col
-  md="6"
-  className="align-self-center pt-3 ord1"
-  data-aos="zoom-in"
-  data-aos-duration="1500"
-  data-aos-delay="200"
->
-  <img
-    src={require('../assets/images/wel-side.webp')}
-    className="img-fluid sty-radius shadow1"
-    alt="shree ganesh traders shop"
-    title="shree ganesh traders shop"
-  />
-</Col>
-
-<Col
-  md="6"
-  className="text-center align-self-center pt-3 ord2"
-  data-aos="fade-right"
-  data-aos-duration="1500"
-  data-aos-delay="200"
->
-  <p className="top-title text-danger"><span>Welcome To</span></p>
-  <div className="heading1 arial clr1">Sri Ganesh Traders</div>
-  <div className="heading6 pb-3">
-    WE HAVE THE GLORY BEGINING IN FIREWORKS BUSINESS
-  </div>
-  <p className="helvetica">
-    Shree Ganesh Traders has been a well-known Fireworks Store in Sivakasi.
-    What started out as a hobby, has become our passion and we're delighted to share it with you.
-    We’re committed to offering quality products, unparalleled service and the most competitive
-    prices in town. Great service begins with great people and industry experience, which is why
-    our staff is made up of the best and most qualified in the business.
-  </p>
-</Col>
-
-		</Row>
-	</Container>
-    {/* about content end */}
-    {/* Our products start */}
-        <div className="whychoosebg">
-	<Container className="container">
-		<Row className="row">
-            <div className="para_size">
-                <Col lg='12' className=" text-center pb-lg-4 wow fadeInDown" 
-                style={{visibility: 'visible', animationName: 'fadeInDown'}}>
-                    <h1 className="arial headfnt text-white font-weight-bold">Our Products</h1>
-					<img src={require("../assets/images/nod.webp") }
-                    className="img-fluid mb-3 w-10" 
-                    alt="sivakasi wholesale crackers shop" 
-                    title="sivakasi wholesale crackers shop"/>
-                    <p className="helvetica text-white pt-4">We aim to make our customers satisfied and happy with all of our innovative crackers.
-                        We introduce new crackers and packages every year for our beloved customers. </p>
-                </Col>
-            </div>
-		</Row>
-	</Container>
-</div>
-{/* Our products end */}
-{/* products start */}
-<Container className="container productsline ">
-	<Row className="row row-hang">
-		<Col lg='4' md='6' className="pt-4">
-			<Link to="/">
-				<div className="mb-30">
-					<div className="product-item">
-						<div className="thumb">
-							<div className="thumb-inner"> 
-								<img src={require("../assets/images/product6.webp")}
-                                className="img-fluid rd" alt="online crackers shopping" title="online crackers shopping"/>
-							</div>
-						</div>
-						<div className="details">
-							<div className="helvetica pb-3 text-dark"></div>
-							<div className="heading5 clr1 arial"> Ground Chakkars </div>
-						</div>
-					</div>
-				</div>
-			</Link>
-		</Col>
-		<Col lg='4' md='6' className=" pt-4">
-			<Link to="/">
-				<div className="mb-30">
-					<div className="product-item">
-						<div className="thumb">
-							<div className="thumb-inner"> 
-								<img src={require("../assets/images/product3.webp")} 
-                                className="img-fluid rd" alt="diwali crackers sale" 
-                                title="diwali crackers sale"/>
-							</div>
-						</div>
-						<div className="details">
-							<div className="helvetica pb-3 text-dark"></div>
-							<div className="heading5 clr1 arial"> Flower Pots </div>
-						</div>
-					</div>
-				</div>
-			</Link>
-		</Col>
-		<Col lg='4' md='6' className=" pt-4">
-			<Link to="/">
-				<div className="mb-30">
-					<div className="product-item">
-						<div className="thumb">
-							<div className="thumb-inner"> 
-								<img src={require("../assets/images/product5.webp")} 
-                                className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
-							</div>
-						</div>
-						<div className="details">
-							<div className="helvetica pb-3 text-dark"></div>
-							<div className="heading5 clr1 arial">Sparklers</div>
-						</div>
-					</div>
-				</div>
-			</Link>
-		</Col>
-		<Col lg='4' md='6' className=" pt-4">
-			<Link to="/">
-				<div className="mb-30">
-					<div className="product-item">
-						<div className="thumb">
-							<div className="thumb-inner"> 
-								<img src={require("../assets/images/product4.webp")}  
-                                className="img-fluid rd" alt="shree ganesh traders shop" title="shree ganesh traders shop"/>
-							</div>
-						</div>
-						<div className="details">
-							<div className="helvetica pb-3 text-dark"></div>
-							<div className="heading5 clr1 arial">Skyshots</div>
-						</div>
-					</div>
-				</div>
-			</Link>
-		</Col>
-		<Col lg='4' md='6' className="pt-4">
-			<Link to="/">
-				<div className="mb-30">
-					<div className="product-item">
-						<div className="thumb">
-							<div className="thumb-inner"> 
-								<img src={require("../assets/images/product1.webp")}  
-                                className="img-fluid rd" alt="online crackers shopping" title="online crackers shopping"/>
-							</div>
-						</div>
-						<div className="details">
-							<div className="helvetica pb-3 text-dark"></div>
-							<div className="heading5 clr1 arial">Rockets</div>
-						</div>
-					</div>
-				</div>
-			</Link>
-		</Col>
-		<Col lg='4' md='6' className="pt-4">
-			<Link to="/">
-				<div className="mb-30">
-					<div className="product-item">
-						<div className="thumb">
-							<div className="thumb-inner"> 
-								<img src={require("../assets/images/product2.webp")}  
-                                className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
-							</div>
-						</div>
-						<div className="details">
-							<div className="helvetica pb-3 text-dark"></div>
-							<div className="heading5 clr1 arial">Single Sounds</div>
-						</div>
-					</div>
-				</div>
-			</Link>
-		</Col>
-	</Row>
-</Container>
-{/* products end */}
     </div>
     </>
   )
