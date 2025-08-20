@@ -1,0 +1,31 @@
+.fourth-table{
+    overflow-x: hidden !important;
+}
+.netrate{
+    color: red !important;
+    font-weight: bold;
+    text-decoration : line-through !important;
+
+}
+.cart-four svg{
+    font-size: 30px;
+}
+.card-four-image{
+    max-width: 60px;
+  max-height: 60px;
+  cursor: pointer;
+}
+.product-four-list td{
+    border: 1px solid #000;
+}
+.card-four-table-input-qty{width: 60px !important; margin: 0 auto;}
+.card-four-table-input-price{width: 100px !important; margin: 0 auto;}
+@media (min-width: 1px) and (max-width: 767.98px) {
+    .hide-small{
+        display: none;
+    }
+    .card-four-table-input-price{width: 70px !important; margin: 0 auto;}
+    .card-four-image  {max-width: 30px;
+        max-height: 30px;
+        cursor: pointer;}
+}
