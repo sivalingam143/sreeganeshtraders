@@ -353,7 +353,7 @@ const Home = () => {
     WE HAVE THE GLORY BEGINING IN FIREWORKS BUSINESS
   </div>
   <p className="helvetica">
-    Senthan Guru Crackers has been a well-known Fireworks Store in Sivakasi.
+    Shree Ganesh Traders has been a well-known Fireworks Store in Sivakasi.
     What started out as a hobby, has become our passion and we're delighted to share it with you.
     We’re committed to offering quality products, unparalleled service and the most competitive
     prices in town. Great service begins with great people and industry experience, which is why
