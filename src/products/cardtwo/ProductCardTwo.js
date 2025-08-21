@@ -160,7 +160,7 @@ const ProductCardTwo = ({ products, category, selectedProduct, totals, addToCart
                   <tr>
                     <th>Total Products : {totals.totalProducts}</th>
                     <th>MRP Rate Total : {Math.round(totals.overallTotal.toFixed(2))}</th>
-                    <th> Discount with Total (70%) : {Math.round(totals.discountRate.toFixed(2))}</th>
+                    <th> Discount with Total (80%) : {Math.round(totals.discountRate.toFixed(2))}</th>
                     <th>
                       <div className='cart-icon' onClick={handleShowCart}>
                         <FaShoppingCart />
@@ -420,7 +420,7 @@ const ProductCardTwo = ({ products, category, selectedProduct, totals, addToCart
                 <tr>
                   <td>
                     <tr>
-                      <td className='w-100'>Total Discount Amount (70%) :</td>
+                      <td className='w-100'>Total Discount Amount (80%) :</td>
                       <td> ₹<span>{(totals.discountedOverallTotal).toFixed(2)}</span></td>
                     </tr>
                   </td>
@@ -553,7 +553,7 @@ const ProductCardTwo = ({ products, category, selectedProduct, totals, addToCart
                   <tr>
                     <td>
                       <tr>
-                        <td className='w-100'>Total Discount Amount (70%) :</td>
+                        <td className='w-100'>Total Discount Amount (80%) :</td>
                         <td> ₹<span>{(totals.discountedOverallTotal).toFixed(2)}</span></td>
                       </tr>
                     </td>
