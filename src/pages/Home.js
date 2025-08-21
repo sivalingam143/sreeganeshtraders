@@ -65,6 +65,25 @@ const Home = () => {
   data-aos-duration="1500"
   data-aos-delay="200"
 >
+  <p className="top-title vara text-danger"><span>வரவேற்கிறோம்</span></p>
+  <div className="heading1 tamil-font clr1">ஸ்ரீ கணேஷ் டிரேடர்ஸ்</div>
+  <div className="heading6 pb-3 tamil-font">
+    எங்களிடம் பட்டாசுகள் வாங்க சிறந்த வசதி உள்ளது!
+  </div>
+  <p className="tamil-font cracker-text">
+    🚗 பார்க்கிங் வசதி உள்ளது! <br />
+    🛍️ தங்கி பட்டாசு வாங்கிச் செல்ல போதுமான இட வசதி உள்ளது!<br />
+    🛁 பாத்ரூம் வசதி உள்ளது! 
+  </p>
+</Col>
+
+<Col
+  md="6"
+  className="text-center align-self-center pt-3 ord2"
+  data-aos="fade-right"
+  data-aos-duration="1500"
+  data-aos-delay="200"
+>
   <p className="top-title text-danger"><span>Welcome To</span></p>
   <div className="heading1 arial clr1">Sri Ganesh Traders</div>
   <div className="heading6 pb-3">
@@ -105,6 +124,43 @@ const Home = () => {
 {/* products start */}
 <Container className="container productsline ">
 	<Row className="row row-hang">
+        
+        <Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/unnamed.jpg")} style={{maxHeight:'420px',maxWidth:'700px'}}
+                                className="img-fluid rd" alt="online crackers shopping" title="online crackers shopping"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial"> Baby's Collection </div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
+        <Col lg='4' md='6' className="pt-4">
+			<Link to="/">
+				<div className="mb-30">
+					<div className="product-item">
+						<div className="thumb">
+							<div className="thumb-inner"> 
+								<img src={require("../assets/images/product2.webp")}  
+                                className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
+							</div>
+						</div>
+						<div className="details">
+							<div className="helvetica pb-3 text-dark"></div>
+							<div className="heading5 clr1 arial">Single Sounds</div>
+						</div>
+					</div>
+				</div>
+			</Link>
+		</Col>
 		<Col lg='4' md='6' className="pt-4">
 			<Link to="/">
 				<div className="mb-30">
@@ -202,13 +258,13 @@ const Home = () => {
 					<div className="product-item">
 						<div className="thumb">
 							<div className="thumb-inner"> 
-								<img src={require("../assets/images/product2.webp")}  
+								<img src={require("../assets/images/bann-scaled.webp")}  style={{maxHeight:'420px',maxWidth:'700px'}}
                                 className="img-fluid rd" alt="diwali crackers sale" title="diwali crackers sale"/>
 							</div>
 						</div>
 						<div className="details">
 							<div className="helvetica pb-3 text-dark"></div>
-							<div className="heading5 clr1 arial">Single Sounds</div>
+							<div className="heading5 clr1 arial">Gift Box items</div>
 						</div>
 					</div>
 				</div>

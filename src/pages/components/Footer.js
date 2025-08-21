@@ -23,14 +23,14 @@ const Footer = () => {
         </div>
       )}
       <div className='fixed point'>
-        <WhatsAppButton name="Hi S" phoneNumber="sri ganesh traders 9944708084" />
+        <WhatsAppButton name="Hi Sri ganesh traders" phoneNumber="9944708084" />
       </div>
       <a href="https://maps.app.goo.gl/xuU39C1BsATVaKJN7">
         <div className="fixed point3" style={{ cursor: 'pointer' }}>
           <img src={require('../../assets/images/googlelocation.png')} className='img-fluid priceicn float-left' alt='special price' />
         </div>
       </a>
-      <a href='tel:+919597145823'>
+      <a href='tel:+919944708084'>
         <div className='fixed point4' style={{ cursor: 'pointer' }}>
           <img src={require('../../assets/images/callicon.webp')} className='img-fluid priceicn float-left' alt='product name' />
         </div>
@@ -72,10 +72,17 @@ const Footer = () => {
                           sri Ganesh Traders,
                         Kovilpatti to Sattur Main Road, 626203</div>
                       </li>
-                      <li className='mx-3 pb-3 smallfnt'>
-                        <p> <FaSquarePhone /></p>
-                        <div className='text_one'>+91 9944708084</div>
-                      </li>
+                          <li className='mx-3 pb-3 smallfnt'>
+                            <p> <FaSquarePhone /></p>
+                            <div className='text_one'>+91 9944708084</div>
+                          
+                          </li>
+                               <li className='mx-3 pb-3 smallfnt'>
+                            <p> <FaSquarePhone /></p>
+                            <div className='text_one'>+91 9361499985</div>
+                          
+                          </li>
+                      
                       <li className='mx-3 pb-3 smallfnt'>
                         <p><FaWhatsapp /></p>
                         <div className='text_one'>+91 9944708084</div>

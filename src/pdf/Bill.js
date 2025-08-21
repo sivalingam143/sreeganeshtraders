@@ -55,6 +55,9 @@ const styles = StyleSheet.create({
     bottom:{
         borderBottomWidth:1,
     },
+    bottom1:{
+        borderTopWidth:1,
+    },
     bgColor:{
         backgroundColor:"#00a79d",
         color:"#fff",
@@ -120,7 +123,15 @@ const styles = StyleSheet.create({
     vh:{
         paddingHorizontal:10,
         paddingVertical:5
-    }
+    },
+    line: {
+  borderBottomWidth: 1,
+  borderBottomColor: '#000',
+  width: '100%',
+  marginVertical: 4,
+}
+
+
     // page content style end
 });
 
@@ -209,7 +220,7 @@ const Bill = ({ data }) => {
             <View style={[styles.w50, styles.brdright, styles.pad5]}>
               <Text style={styles.large}>{companyData.company_name}</Text>
               <Text>{companyData.address}</Text>
-              <Text>Phone : {companyData.phone} , {companyData.mobile} , 8248541378</Text>
+              <Text>Phone : {companyData.phone} , {companyData.mobile}</Text>
               {/* <Text>GST : {companyData.gst_no}</Text> */}
             </View>
             <View style={[styles.w50, styles.pad5]}>
@@ -278,22 +289,44 @@ const Bill = ({ data }) => {
               </React.Fragment>
             ))}
           </View>
-          {pageIndex === productPages.length - 1 && (
-          <View style={[styles.totalCell, styles.head, styles.f10, styles.top]}>
-            <View style={[styles.w50, styles.brdright, styles.pad5]}>
-              <Text style={styles.large}>Payments Details</Text>
-              <Text>Bank name : {companyData.bank_name}</Text>
-              <Text>Acc Holder Name : {companyData.acc_holder_name}</Text>
-              <Text>IFSC Code: {companyData.ifsc_code}</Text>
-              <Text>GPAY Number : {companyData.mobile}</Text>
-            </View>
-            <View style={[styles.totalBox, styles.w50, styles.right]}>
-              <Text style={[styles.bottom, styles.vh]}>Net Total: {data.sub_total}</Text>
-              <Text style={[styles.bottom, styles.vh]}>Discount Amount: {discounttotal}</Text>
-              <Text style={[styles.bottom, styles.vh]}>Overall Total: {data.total}</Text>
-            </View>
-          </View>
-          )}
+      {pageIndex === productPages.length - 1 && (
+  <View style={[styles.totalCell, styles.head, styles.f10, styles.top]}>
+
+    {/* LEFT SIDE: Payments Details */}
+    <View style={[styles.w50, styles.brdright, styles.pad5]}>
+      <Text style={styles.large}>Payments Details</Text>
+
+      {/* Bank 1 */}
+    
+      <Text>Bank Name : State Bank of India</Text>
+      <Text>Acc Holder Name : Mr. SIVARAJ.J</Text>
+      <Text>Account Number : 30371620994</Text>
+      <Text>IFSC Code : SBIN0000961</Text>
+      <Text>Branch : Sattur</Text>
+
+<View style={styles.line} />
+
+
+
+      {/* Bank 2 */}
+    
+      <Text>Bank Name : Canara Bank</Text>
+      <Text>Acc Holder Name : V.JEYABAL</Text>
+      <Text>Account Number : 3754101002571</Text>
+      <Text>IFSC Code : CNRB0003754</Text>
+      <Text>Branch : Venkatachalapuram</Text>
+    </View>
+
+    {/* RIGHT SIDE: Totals aligned at bottom */}
+    <View style={[styles.totalBox, styles.w50, styles.right, { justifyContent: "flex-end" }]}>
+      <Text style={[styles.bottom1,styles.bottom, styles.vh]}>Net Total: {data.sub_total}</Text>
+      <Text style={[styles.bottom, styles.vh]}>Discount Amount: {discounttotal}</Text>
+      <Text style={[ styles.vh]}>Overall Total: {data.total}</Text>
+    </View>
+
+  </View>
+)}
+
         </View>
         <View style={[styles.tableRow, styles.discountRow]}>
         <View style={[styles.w100, styles.center]}>

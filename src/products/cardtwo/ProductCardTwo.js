@@ -287,6 +287,46 @@ const ProductCardTwo = ({ products, category, selectedProduct, totals, addToCart
         <h2 className='bold  pb-3'> Thank You Reaching Us</h2>
         <ButtonView label={<>PLEASE CHECK YOUR ORDER</>} onClick={handleShowCart} className="check-order-btn" />
       </div>
+<div className=" text-center">
+  <h2 className="bold pb-3">Bank Account Details</h2>
+
+  <div className="row justify-content-center">
+    {/* Box 1 */}
+    <div className="col-md-4 mb-3">
+      <div className="bank-box shadow-sm p-3">
+        <h5 className="bank-title">State Bank of India</h5>
+        <p><b>Account Number:</b> 30371620994</p>
+        <p><b>Name:</b> Mr. SIVARAJ.J</p>
+        <p><b>IFSC Code:</b> SBIN0000961</p>
+        <p><b>Branch:</b> Sattur</p>
+      </div>
+    </div>
+
+    {/* Box 2 */}
+    <div className="col-md-4 mb-3">
+      <div className="bank-box shadow-sm p-3">
+        <h5 className="bank-title">Canara Bank</h5>
+        <p><b>Account Number:</b> 3754101003740</p>
+        <p><b>Name:</b> J.SIVARAJ</p>
+        <p><b>IFSC Code:</b> CNRB0003754</p>
+        <p><b>Branch:</b> Venkatachalapuram</p>
+      </div>
+    </div>
+
+    {/* Box 3 */}
+    <div className="col-md-4 mb-3">
+      <div className="bank-box shadow-sm p-3">
+        <h5 className="bank-title">Canara Bank</h5>
+        <p><b>Account Number:</b> 3754101002571</p>
+        <p><b>Name:</b> V.JEYABAL</p>
+        <p><b>IFSC Code:</b> CNRB0003754</p>
+        <p><b>Branch:</b> Venkatachalapuram</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
 
       <>
         <Modal show={show} onHide={handleClose} centered>
