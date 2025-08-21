@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
-//import CardOne from '../../products/cardone/CardOne';
+import CardOne from '../../products/cardone/CardOne';
 import CardThree from '../../products/cardthree/CardThree'
-// import ProductCardTwo from '../../products/cardtwo/ProductCardTwo'
+import ProductCardTwo from '../../products/cardtwo/ProductCardTwo'
 import API_DOMAIN from '../../config/config';
 import CardFour from '../../products/cardfour/CardFour';
 import {calculateTotals,districtData } from '../../models/cardone/card_one_model';
@@ -411,31 +411,54 @@ const ProductController = () => {
   //    setting ={setting}
   //    banner={banner}
   //   />
-    <CardFour
-    products={products}
-    category ={category}
-    totals={totals}
-    updateQuantity={updateQuantity}
-    handleShowCart={handleShowCart}
-    handleCloseCart={handleCloseCart}
-    showCart={showCart}
-    handleShow={handleShow}
-    selectedProduct={selectedProduct}
-    handleClose={handleClose}
+    // <CardFour
+    // products={products}
+    // category ={category}
+    // totals={totals}
+    // updateQuantity={updateQuantity}
+    // handleShowCart={handleShowCart}
+    // handleCloseCart={handleCloseCart}
+    // showCart={showCart}
+    // handleShow={handleShow}
+    // selectedProduct={selectedProduct}
+    // handleClose={handleClose}
+    // companydata ={companydata}
+    // show={show}
+    // setCart={setCart}
+    // setShowVideoModal={setShowVideoModal}
+    // showVideoModal ={showVideoModal}
+    // removeProduct={removeFromCart}
+    // addToCart ={addToCart}
+    // cart={cart}
+    // districtData={districtData}
+    // setting={setting}
+    // banner={banner}
+    // handleQuantityChange={handleQuantityChange}
+    // />
+     <ProductCardTwo
+      products={products}
+      category ={category}
+      totals={totals}
+      updateQuantity={updateQuantity}
+      handleShowCart={handleShowCart}
+      handleCloseCart={handleCloseCart}
+      showCart={showCart}
+      handleShow={handleShow}
+      selectedProduct={selectedProduct}
+      handleClose={handleClose}
+      show={show}
     companydata ={companydata}
-    show={show}
+      setShowVideoModal={setShowVideoModal}
+      showVideoModal ={showVideoModal}
+      removeProduct={removeFromCart}
+      addToCart ={addToCart}
+      cart={cart}
     setCart={setCart}
-    setShowVideoModal={setShowVideoModal}
-    showVideoModal ={showVideoModal}
-    removeProduct={removeFromCart}
-    addToCart ={addToCart}
-    cart={cart}
-    districtData={districtData}
-    setting={setting}
-    banner={banner}
-    handleQuantityChange={handleQuantityChange}
-    />
-    //  <ProductCardTwo
+      districtData={districtData}
+    setting ={setting}
+     banner={banner}
+    /> 
+    // <CardOne
     //   products={products}
     //   category ={category}
     //   totals={totals}
@@ -446,40 +469,17 @@ const ProductController = () => {
     //   handleShow={handleShow}
     //   selectedProduct={selectedProduct}
     //   handleClose={handleClose}
+    //   companydata ={companydata}
     //   show={show}
-    // companydata ={companydata}
+    //   setCart={setCart}
     //   setShowVideoModal={setShowVideoModal}
     //   showVideoModal ={showVideoModal}
     //   removeProduct={removeFromCart}
     //   addToCart ={addToCart}
     //   cart={cart}
-    // setCart={setCart}
     //   districtData={districtData}
-    // setting ={setting}
-    //  banner={banner}
-    // /> 
-    // <CardOne
-      // products={products}
-      // category ={category}
-      // totals={totals}
-      // updateQuantity={updateQuantity}
-      // handleShowCart={handleShowCart}
-      // handleCloseCart={handleCloseCart}
-      // showCart={showCart}
-      // handleShow={handleShow}
-      // selectedProduct={selectedProduct}
-      // handleClose={handleClose}
-      // companydata ={companydata}
-      // show={show}
-      // setCart={setCart}
-      // setShowVideoModal={setShowVideoModal}
-      // showVideoModal ={showVideoModal}
-      // removeProduct={removeFromCart}
-      // addToCart ={addToCart}
-      // cart={cart}
-      // districtData={districtData}
-      // setting={setting}
-      // banner={banner}
+    //   setting={setting}
+    //   banner={banner}
     // />
   );
 };
