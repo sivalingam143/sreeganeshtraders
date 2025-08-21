@@ -15,7 +15,7 @@ const AppBar = () => {
       <div className='d-lg-block d-none'>
         <Container fluid >
               <Row className='py-2'>
-              <Col lg="4" xs="4" sm="4" className='align-self-center d-lg-block d-none'>
+              {/* <Col lg="4" xs="4" sm="4" className='align-self-center d-lg-block d-none'>
                   <div className='d-flex align-items-center'>
                     <div>
                       <img src={require('../../assets/images/gpay.png')} className='img-fluid gpay' alt='gpay' />
@@ -24,10 +24,10 @@ const AppBar = () => {
                        <h5 className='bold mt-2 mx-2'>9361499985,9790578763 </h5> 
                     </div>
                   </div>
-              </Col>
-                <Col lg='8' className='align-self-center text-white'>
+              </Col> */}
+                <Col lg='12' className='align-self-center text-white'>
                   <Marquee pauseOnHover={true}  direction="left" speed={50} delay={9}>
-                    |  Whatsapp : +91  99447 08084 | Mobile No : +91 99447 08084 | Email :  shreeganeshtraders@gmail.com
+  Diwali sale is open now. Kindly buy early to get best discounts &amp; Offers Happy &amp; Safe Diwali....!!!!
                   </Marquee>
                 </Col>
               </Row>
@@ -37,7 +37,7 @@ const AppBar = () => {
           <Container fluid>
             <Row>
               <Col xs="4" sm="4">
-              <a href="https://wa.me/919597145823?text=Hello Shree Ganesh Crackers">
+              <a href="https://wa.me/919597145823?text=Hello Sri Ganesh Crackers">
                 <div className='mob-icon mx-auto'>
                     <img src={require('../../assets/images/whatsappicon.webp')} className='img-fluid' alt='product name' />
                   </div>
@@ -276,7 +276,7 @@ const AppBarThree = () => {
               </Col>
                 <Col lg='8' className='align-self-center text-white'>
                   <Marquee pauseOnHover={true}  direction="left" speed={50} delay={9}>
-                    Whatsapp : +91 95971 45823 | Phone No : +91 95971 45823 | Email :  shreeganeshtraders@gmail.com
+                    Whatsapp : +91 95971 45823 | Phone No : +91 95971 45823 | Email :  sriganeshtraders@gmail.com
                   </Marquee>
                 </Col>
               </Row>
@@ -286,7 +286,7 @@ const AppBarThree = () => {
           <Container fluid>
             <Row>
               <Col xs="4" sm="4">
-              <a href="https://wa.me/919597145823?text=Hello Shree Ganesh Crackers">
+              <a href="https://wa.me/919597145823?text=Hello Sri Ganesh Crackers">
                 <div className='mob-icon mx-auto'>
                     <img src={require('../../assets/images/whatsappicon.webp')} className='img-fluid' alt='product name' />
                   </div>
@@ -323,7 +323,7 @@ const AppBarThree = () => {
                       <IoLocationOutline  size={45} color='#ff1d55'/></div>
                     <div>
                       <h5 className='bold'> Address</h5>
-                      <p className='regular'>  Shree Ganesh Crackers<br/>
+                      <p className='regular'>  Sri Ganesh Crackers<br/>
                       Kovilpatti to Sattur Main Road, 626203
                       </p>
                     </div>

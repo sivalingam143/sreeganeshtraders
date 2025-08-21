@@ -10,11 +10,11 @@ const ContactUs = () => {
   return (
     <div>
        <MetaTags
-        title="Contact Us - Shree Ganesh Traders - Whole sale Crackers"
+        title="Contact Us - Sri Ganesh Traders - Whole sale Crackers"
         type="website"
         siteName="diwalicracker.com"
         url="https://diwalicracker.com/contactus"
-        keywords="Contact Us | Shree Ganesh Traders "
+        keywords="Contact Us | Sri Ganesh Traders "
         description="Contact for wholesale Crackers and Retail Crackers"
         revisitAfter="10 Days"
       />
@@ -52,7 +52,7 @@ const ContactUs = () => {
                           <MdOutlineAlternateEmail size={40} color={'#000'}/>
                         </div>
                         <div className='pb-4'>
-                          <div>shreeganeshcrackers@gmail.com</div> 
+                          <div>sriganeshcrackers@gmail.com</div> 
                         </div>
                     </div>
                   </Col>
@@ -67,7 +67,7 @@ const ContactUs = () => {
                     height="600"
                     style={{ border: 0 }}
                     allowFullScreen
-                    title="Google Maps Embed of Shree Ganesh Crackers, Tamil Nadu"
+                    title="Google Maps Embed of Sri Ganesh Crackers, Tamil Nadu"
                   />
                 </>
               </Col>

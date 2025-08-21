@@ -169,3 +169,14 @@
     transform: translateY(4px) !important;
     box-shadow: 0px 2px 0px #990000, 0px 4px 8px rgba(0, 0, 0, 0.3) !important;
   }
+  .slider-image .image2{
+  margin-top: -20% !important;
+}
+.slider-image .image1{
+  padding-top: 10px;
+  max-width: 200px;
+}
+.slider-image .image3{
+  max-width: 130px;
+  margin-top: -10px;
+}

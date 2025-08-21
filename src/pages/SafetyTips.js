@@ -184,7 +184,7 @@ const SafetyTipsTwo = () => {
         revisitAfter="10 Days"
       />
       <AppBar />
-      <img src={require('../assets/images/banner/banner_three.jpg')} className='img-fluid w-100' alt='product name' />
+      <img src={require('../assets/images/banner_two.jpg')} className='img-fluid w-100' alt='product name' />
       <div className='padding'>
           <Container>
             <Row>

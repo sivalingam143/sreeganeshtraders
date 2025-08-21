@@ -3,6 +3,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import "../../pages/Products.css";
+
 export default function SimpleSlider() {
     var settings = {
         dots: false,
@@ -43,9 +45,9 @@ export default function SimpleSlider() {
       };
   return (
     <Slider {...settings}>
-      <div className="slider-image">
+      {/* <div className="slider-image">
         <img src={require('../../assets/images/bann-logo.png')}  className='img-fluid' alt='website developer'/>
-      </div>
+      </div> */}
       <div className="slider-image">
         <img src={require('../../assets/images/brands_two.jpg')}  className='img-fluid' alt='website developer'/>
       </div>
@@ -53,16 +55,16 @@ export default function SimpleSlider() {
         <img src={require('../../assets/images/brands_three.jpg')}  className='img-fluid' alt='website developer'/>
       </div> */}
       <div className="slider-image">
-        <img src={require('../../assets/images/images-removebg-preview (1).png')}  className='img-fluid ' alt='website developer'/>
+        <img src={require('../../assets/images/brand8.jpeg')}  className='img-fluid ' alt='website developer'/>
       </div>
-      <div className="slider-image">
-        <img src={require('../../assets/images/images__1_-removebg-preview.png')}  className='img-fluid ' alt='website developer'/>
+      <div className="slider-image mx-4">
+        <img src={require('../../assets/images/brand5.png')}  className='img-fluid image3' alt='website developer'/>
       </div>
-      <div className="slider-image">
-        <img src={require('../../assets/images/brands_six.jpg')}  className='img-fluid ' alt='website developer'/>
+      <div className="slider-image mx-2">
+        <img src={require('../../assets/images/brand7.png')}  className='img-fluid image1' alt='website developer'/>
       </div>
-      <div className="slider-image">
-        <img src={require('../../assets/images/brands_seven.jpg')}  className='img-fluid ' alt='website developer'/>
+      <div className="slider-image mx-3">
+        <img src={require('../../assets/images/brand6.png')}  className='img-fluid image2 ' alt='website developer'/>
       </div>
     </Slider>
   );

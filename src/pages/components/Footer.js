@@ -23,9 +23,9 @@ const Footer = () => {
         </div>
       )}
       <div className='fixed point'>
-        <WhatsAppButton name="Hi S" phoneNumber="shree ganesh traders 9944708084" />
+        <WhatsAppButton name="Hi S" phoneNumber="sri ganesh traders 9944708084" />
       </div>
-      <a href="https://maps.app.goo.gl/M9bD62NWEtL2kUfdA">
+      <a href="https://maps.app.goo.gl/xuU39C1BsATVaKJN7">
         <div className="fixed point3" style={{ cursor: 'pointer' }}>
           <img src={require('../../assets/images/googlelocation.png')} className='img-fluid priceicn float-left' alt='special price' />
         </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                       <li className='mx-3 pb-3 smallfnt'>
                         <p><CiLocationArrow1 /></p>
                         <div className='text_one'>
-                          Shree Ganesh Traders,
+                          sri Ganesh Traders,
                         Kovilpatti to Sattur Main Road, 626203</div>
                       </li>
                       <li className='mx-3 pb-3 smallfnt'>
@@ -83,7 +83,7 @@ const Footer = () => {
                       
                       <li className='mx-3 pb-3 smallfnt'>
                         <p><FaRegEnvelope /></p>
-                        <div className='text_one'>shreeganeshtraders@gmail.com</div>
+                        <div className='text_one'>sriganeshtraders@gmail.com</div>
                       </li>
                     </ul>
 
@@ -119,7 +119,7 @@ const Footer = () => {
           <Container>
             <Row>
               <Col lg='12' className='py-3'>
-                <div className='text-center regular text-white'> Copyright © 2024,. Shree Ganesh Traders. All rights reserved </div>
+                <div className='text-center regular text-white'> Copyright © 2024,. Sri Ganesh Traders. All rights reserved </div>
               </Col>
             </Row>
           </Container>

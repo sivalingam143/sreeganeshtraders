@@ -53,8 +53,8 @@ const Home = () => {
   <img
     src={require('../assets/images/wel-side.webp')}
     className="img-fluid sty-radius shadow1"
-    alt="shree ganesh traders shop"
-    title="shree ganesh traders shop"
+    alt="sri ganesh traders shop"
+    title="sri ganesh traders shop"
   />
 </Col>
 
@@ -71,7 +71,7 @@ const Home = () => {
     WE HAVE THE GLORY BEGINING IN FIREWORKS BUSINESS
   </div>
   <p className="helvetica">
-    Shree Ganesh Traders has been a well-known Fireworks Store in Sivakasi.
+    Sri Ganesh Traders has been a well-known Fireworks Store in Sivakasi.
     What started out as a hobby, has become our passion and we're delighted to share it with you.
     We’re committed to offering quality products, unparalleled service and the most competitive
     prices in town. Great service begins with great people and industry experience, which is why
@@ -167,7 +167,7 @@ const Home = () => {
 						<div className="thumb">
 							<div className="thumb-inner"> 
 								<img src={require("../assets/images/product4.webp")}  
-                                className="img-fluid rd" alt="shree ganesh traders shop" title="shree ganesh traders shop"/>
+                                className="img-fluid rd" alt="sri ganesh traders shop" title="sri ganesh traders shop"/>
 							</div>
 						</div>
 						<div className="details">
@@ -221,10 +221,10 @@ const Home = () => {
                 <Row>
                     <Col lg={6} xs='12'>
                         <div className='home-top'>
-                            <h2 className='bold color-red'> Welcome to shree ganesh  </h2>
+                            <h2 className='bold color-red'> Welcome to sri ganesh  </h2>
                             <div className='regular'>
                                 <p>
-                                    <span class="color-red bold">Shree Ganesh Traders</span> is the leading supplier of Crackers , Sparklers & Fancy items and our aim is to provide the excellent services and true value for money. Any Special Functions can't be completed without Crackers sounds and colors. We provide that through our Dazzling Crackers. We are from the Cracker city Sivakasi. 
+                                    <span class="color-red bold">Sri Ganesh Traders</span> is the leading supplier of Crackers , Sparklers & Fancy items and our aim is to provide the excellent services and true value for money. Any Special Functions can't be completed without Crackers sounds and colors. We provide that through our Dazzling Crackers. We are from the Cracker city Sivakasi. 
                                     Our efficiency in business has set benchmarks among our competitors in the line of quality.
                                 </p>
                                 <p>
@@ -266,7 +266,7 @@ const Home = () => {
                 <Row>
                     <Col xs={12} className='py-3 align-self-center'>
                     <div data-aos="fade-up" className='text-center'>
-                        <h1 class=" bold text-center pb-1 lg-font h1color"> Welcome to Shree Ganesh Traders</h1>  
+                        <h1 class=" bold text-center pb-1 lg-font h1color"> Welcome to Sri Ganesh Traders</h1>  
                             <h2 class=" bold pt-5 subheadcolor">Diwali Best Crackers In sivakasi</h2>
                             <p class="regular">
                                 We have immense pleasure in welcoming you to visit our mega fireworks showroom located in Sivakasi, where you can directly place your valuable orders and fulfill all your crackers requirements at one stop. We are in the cracker's industry for past 10+ years. It's our pride in supplying our esteemed customers with the best quality crackers at the lowest market prices.</p>
@@ -276,7 +276,7 @@ const Home = () => {
                 </Row>
             </Container>
         </div>
-        <img src={require('../assets/images/banner/banner_et.jpg')} className='img-fluid w-100' alt='Shree Ganesh Traders' />
+        <img src={require('../assets/images/banner/banner_et.jpg')} className='img-fluid w-100' alt='Sri Ganesh Traders' />
        {/* <intro end */}
 
             {/* product start */}
@@ -287,10 +287,10 @@ const Home = () => {
                     <Row className='justify-content-center'>
                         <Col lg='6'>
                             <h1 class=" bold text-center pb-5 lg-font h1color">Why Choose
-                            Shree Ganesh Traders</h1>
+                            Sri Ganesh Traders</h1>
                             <p className='regular text-center'>
-                            Shree Ganesh Traders Shop is a top provider of premium crackers and fireworks located in Sivakasi, Tamil Nadu. 
-                            We offer authentic Shree Ganesh Traders at highly competitive prices, ensuring you get the best quality for your celebrations.</p>
+                            Sri Ganesh Traders Shop is a top provider of premium crackers and fireworks located in Sivakasi, Tamil Nadu. 
+                            We offer authentic Sri Ganesh Traders at highly competitive prices, ensuring you get the best quality for your celebrations.</p>
                         </Col>
                     </Row>
                     <Row>
@@ -441,7 +441,7 @@ const Home = () => {
                 </Container>
             </div>
        {/* paralax end */}
-       <img src={require('../assets/images/banner/baanner7.jpg')} className='img-fluid w-100' alt='Shree Ganesh traders' data-aos="flip-right" />
+       <img src={require('../assets/images/banner/baanner7.jpg')} className='img-fluid w-100' alt='Sri Ganesh traders' data-aos="flip-right" />
        {/* product banner start */}
             <div className='padding'>
                 <Container>
@@ -478,7 +478,7 @@ const Home = () => {
                         <Col lg="7" md="12" xs='12' className='py-3'>
                             <div class="" data-aos="fade-right">
                                 <h1 class="bold">
-                                Shree Ganesh Traders
+                                Sri Ganesh Traders
                                 </h1> 
                                 <div className='regular'>
                                     <p>We are the leading crackers wholesale manufacturers in Sivakasi, We deliver crackers directly from Sivakasi at affordable price.</p>
