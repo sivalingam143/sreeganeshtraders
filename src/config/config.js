@@ -1,3 +1,3 @@
-var API_DOMAIN  = "https://sreeganeshtraders.zentexus.com/api";
+var API_DOMAIN  = "https://sriganeshcrackers.com/api";
 
 export default API_DOMAIN
